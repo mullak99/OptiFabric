@@ -7,7 +7,8 @@
   "description": "Optifabric is a mod that loads optifine into fabric",
   "authors": [
     "Modmuss50",
-    "Chocohead"
+    "Chocohead",
+    "mullak99"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -31,7 +32,7 @@
     ]
   },
   "depends": {
-    "fabricloader": ">=0.8.8",
-    "minecraft": "1.16.1"
+    "fabricloader": ">=0.9.1",
+    "minecraft": "1.16.2"
   }
 }
