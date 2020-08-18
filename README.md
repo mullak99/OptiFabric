@@ -1,57 +1,20 @@
-# The future of OptiFabric and Recommended alternatives
+# Fork Information
 
-In 1.15 and 1.16 optifine has been casuing a lot of incompatibilities with a growing number of mods, this is due to the way optifine changes the vanilla code in increasingly invasive and incompatible ways. Fixing these crashes isn't easy or fun and takes a lot of time and energy that I don't have.
+This is not intended to be a long-term solution. I decided to fork the original since I wanted to run OptiFabric on 1.16.2. This fork will not attempt to fix any of the incompatibilities that were mentioned by modmuss50.
 
-I have no plans to continue updating OptiFabric going forward, thus with the help of LambdAurora I have compiled a list of mods that replace and supersede Optifine:
+If you want a long term solution, see the README in the [original OptiFabric repo](https://github.com/modmuss50/OptiFabric).
 
-## [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium)
-
-[Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) is a free and open source fabric mod made by JellySquid that [drastically increases the performance](https://www.youtube.com/watch?v=0fAB6pJK6U4) of Minecraft. Sodium utilises modern rendering techniques along with a range of other optimisations.  More more information can be found on the download page linked.
-
-![](https://cdn.discordapp.com/attachments/602805058316533770/731936807909851296/compare.png)
-
-
-## Other recommended mods
-
-### [Canvas](https://www.curseforge.com/minecraft/mc-mods/canvas-renderer)
-
-[Canvas](https://www.curseforge.com/minecraft/mc-mods/canvas-renderer) focuses the use of shaders to improve the visual appearance of the game along with providing performance improvements. (*Incompatible with Sodium*)
-
-### [Ok Zoomer](https://www.curseforge.com/minecraft/mc-mods/ok-zoomer) - [Logicial Zoom](https://www.curseforge.com/minecraft/mc-mods/logical-zoom) - [WI Zoom](https://www.curseforge.com/minecraft/mc-mods/wi-zoom)
-
-These 3 mods are each a great replacement to optifine's much loved zoom feature. They provide more options than optifine's zoom functionality. (*You only need to install one*)
-
-### [Colormatic](https://www.curseforge.com/minecraft/mc-mods/colormatic)
-
-[Colormatic](https://www.curseforge.com/minecraft/mc-mods/colormatic) provides support for resource packs that use Optifine's custom color features.
-
-### [LambDynamicLights](https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights)
-
-[LambDynamicLights](https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights) add dynamic lights to Minecraft similar to Optifine's.
-
-### [motioNO](https://www.curseforge.com/minecraft/mc-mods/motiono)
-
-[motioNO](https://www.curseforge.com/minecraft/mc-mods/motiono) is a client only mod that prevents Minecraft from changing the FOV when sprinting.
-
-### [Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium) and [Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor)
-
-[Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium) provides a great improvement to server performance while [Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor) targets lighting performance. Both mods can be installed on the client or the server and are also made by Jelly Squid.
-
-
-## Need Help?
-
-If you need help installing any of these mods feel free to ask in the [fabric discord server](https://discord.gg/v6v4pMv) in the player-support channel. If you know of any mods that should be showcased here please get in contact with me.
 # OptiFabric
 
 ![](https://ss.modmuss50.me/javaw_2019-05-22_20-33-34.jpg)
 
-__Note:__ This project is not related or supported by either Fabric or Optifine.
+__Note:__ This project is not related or supported by either Fabric, Optifine, or the original OptiFabric developers.
 
 __Note:__ This project does not contain Optifine, you must download it separately!
 
 ## Installing
 
-After installing fabric for 1.15.2, you will need to place the OptiFabric mod jar as well as the optifine installer in the mods folder.
+After installing fabric for 1.16.2, you will need to place the OptiFabric mod jar as well as the optifine installer in the mods folder.
 
 Fabric Loader should be the latest version from the [Fabric Website](https://fabricmc.net/use/)
 
@@ -60,13 +23,15 @@ If you need more help you can read a more detailed guide [here](https://github.c
 
 ## Links
 
-### [OptiFabric Downloads](https://minecraft.curseforge.com/projects/optifabric)
+### [Original OptiFabric Downloads](https://minecraft.curseforge.com/projects/optifabric)
+
+### [Unofficial OptiFabric Downloads](https://github.com/mullak99/OptiFabric/releases)
 
 ### [Optifine Download](https://optifine.net/downloads)
 
 ## Issues
 
-If you happen to find an issue and you believe it is to do with OptiFabric and not Optifine or a mod please open an issue [here](https://github.com/modmuss50/OptiFabric/issues) 
+If you happen to find an issue and you believe it is to do with OptiFabric and not Optifine or a mod please open an issue [here](https://github.com/mullak99/OptiFabric/issues) 
 
 
 ## For Mod Devs
